@@ -22,7 +22,7 @@
                 <label for="pass" class="labels">Password</label>
             </td>
             <td>
-                <input type="password" id="pass" />
+                <input type="password" id="pass" onchange="proofPass();"/>
             </td>
         </tr>
         <tr>
@@ -30,7 +30,7 @@
                 <label for="passrepeat" class="labels">Repeat password</label>
             </td>
             <td>
-                <input type="password" id="passrepeat"/>
+                <input type="password" id="passrepeat" onchange="proofPass();"/>
             </td>
         </tr>
         <tr>
@@ -38,7 +38,7 @@
                 <label for="txtarea1" class="labels">Address</label>
             </td>
             <td>
-                <textarea id="txtarea1"></textarea>
+                <textarea id="txtarea1" onchange="addressProof();"></textarea>
             </td>
         </tr>
         <tr>
@@ -46,7 +46,7 @@
                 <label class="labels" for="email">Email</label>
             </td>
             <td>
-                <input type="email" id="email"/>
+                <input type="email" id="email" onchange="emailProof();"/>
             </td>
         </tr>
     </table>
