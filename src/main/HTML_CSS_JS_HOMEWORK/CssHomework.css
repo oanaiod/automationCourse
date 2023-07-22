@@ -12,8 +12,11 @@ body {
     font-size: 150%;
 }
 
-.w3-container {
+.container {
     background-color: rgb(99, 44, 132);
+    position: relative;
+    width: 980px;
+    height: 50px
 }
 
 .page {
@@ -43,7 +46,12 @@ body {
  margin: 15px 0;
  }
 
-.text {
-    display: inline;
-    text-align: center;
- }
+
+.box {
+    padding: 10px;
+    height: 560px;
+    width: 980px;
+    border: 30px;
+    margin: 20px;
+
+}

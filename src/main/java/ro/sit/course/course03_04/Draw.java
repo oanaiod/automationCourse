@@ -1,4 +1,4 @@
-package ro.sit.course.course03;
+package ro.sit.course.course03_04;
 
 public class Draw {
 
@@ -14,8 +14,6 @@ public class Draw {
         System.out.println("--------");
         System.out.println();
         drawShapeOutline(Integer.parseInt(args[0]), Integer.parseInt(args[1]));
-        System.out.println("Draw Shape Corners:");
-        drawShapeCorners(Integer.parseInt(args[0]), Integer.parseInt(args[1]));
     }
 
     // method 1 for drawShapeOutline
@@ -96,6 +94,9 @@ public class Draw {
         System.out.println(message);
     }
 
+//    private static void printEntireLine() {
+//        System.out.print("**********");
+//    }
             // Homework 24/06
     private static void printEntireLine() {
         System.out.print("**********");
