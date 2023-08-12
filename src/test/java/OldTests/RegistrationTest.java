@@ -1,4 +1,4 @@
-package test.java;
+package test.java.OldTests;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;

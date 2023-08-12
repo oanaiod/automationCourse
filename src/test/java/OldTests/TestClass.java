@@ -1,4 +1,4 @@
-package ro.sit.course.course06_07;
+package test.java.OldTests;
 
 import org.junit.*;
 

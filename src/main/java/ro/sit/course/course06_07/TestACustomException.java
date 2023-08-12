@@ -1,4 +1,4 @@
-package ro.sit.course.course06_07;
+package main.java.ro.sit.course.course06_07;
 
 public class TestACustomException {
 

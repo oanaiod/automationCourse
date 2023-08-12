@@ -8,7 +8,7 @@
             </run>
         </groups>
         <classes>
-            <class name="MyFistTestNGTest"/>
+            <class name="test.java.OldTests.MyFistTestNGTest"/>
         </classes>
     </test>
 </suite>
